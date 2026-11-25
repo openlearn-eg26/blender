@@ -1,0 +1,21 @@
+<!doctype html><html lang="en" dir="ltr"><head>
+<meta name="robots" content="noindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rendering and Saving the Image | Learn Blender from Scratch</title><meta name="description" content="Make the final image and save it."><link rel="icon" type="image/png" href="../img/favicon-48.png"><link rel="apple-touch-icon" href="../img/apple-touch-icon.png"><link rel="canonical" href="https://fabulous-sprinkles-fd92c7.netlify.app/lessons/render"><meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:title" content="Rendering and Saving the Image | Learn Blender from Scratch"><meta property="og:description" content="Make the final image and save it."><meta property="og:url" content="https://fabulous-sprinkles-fd92c7.netlify.app/lessons/render"><meta property="og:image" content="https://fabulous-sprinkles-fd92c7.netlify.app/img/og-brand.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:image" content="https://fabulous-sprinkles-fd92c7.netlify.app/img/og-brand.jpg"><meta name="twitter:card" content="summary_large_image"><link rel="stylesheet" href="../style.css"></head><body>
+<header><div class="w"><p class="logo"><a href="../" style="display:flex;align-items:center;gap:.5rem;color:inherit;text-decoration:none"><img src="../img/brand-96.png" width="32" height="32" alt="" style="border-radius:6px">Learn Blender from Scratch</a></p><nav><a href="../index.html">Home</a><a href="../shortcuts.html">Shortcuts</a><a href="../about.html">About</a></nav></div></header><main><div class="w"><p class="prog">Lesson 6 of 6</p><h1>Rendering and Saving the Image</h1><p>Make the final image and save it.</p>
+<h2>1. Render settings</h2>
+<p>In the <b>Render</b> tab in Properties, choose the render engine:</p>
+<ul><li><b>EEVEE:</b> faster, and gives a good result to start with.</li><li><b>Cycles:</b> slower, but with lighting and shadows closer to real life. Raise the number of <b>Samples</b> to reduce grain (the image below was made with 48 Samples on Cycles).</li></ul>
+<h2>2. Image size</h2>
+<p>In the <b>Output</b> tab set the <b>Resolution</b>. The default is 1920 × 1080, and the image below is 1280 × 720.</p>
+<figure><img src="../img/l6-out.jpg" alt="The Output tab in Properties showing a resolution of 1280 by 720" loading="lazy"><figcaption>The Output tab.</figcaption></figure>
+<h2>3. Render</h2>
+<p>Press <kbd dir="ltr">F12</kbd>. A window opens and builds the image bit by bit (on weaker computers it can take a minute or more). For animation use <span class="combo" dir="ltr"><kbd dir="ltr">Ctrl</kbd> + <kbd dir="ltr">F12</kbd></span>.</p>
+<figure><img src="../img/f12-render.jpg" alt="The render window after pressing F12 showing the pot image" loading="lazy"><figcaption>The render window after F12 showing the pot image (captured from Blender while it was rendering).</figcaption></figure>
+<h2>4. Save the image</h2>
+<p>In the render window choose <b>Image &gt; Save As</b>, name the file and save it as PNG. Save the project file too with <span class="combo" dir="ltr"><kbd dir="ltr">Ctrl</kbd> + <kbd dir="ltr">S</kbd></span>.</p>
+<h2>The result</h2>
+<figure><img src="../img/final-render.jpg" alt="The final pot image after rendering" loading="lazy"><figcaption>The result: the plant pot rendered with Cycles.</figcaption></figure>
+<div class="tip">Tip: save the project before any long render. When you finish, try changing the material color and the light and render again.</div>
+<h2>What next?</h2>
+<p>Try adding a plant to the pot (a green sphere squashed along Z), or make a set of pots in different sizes, and check the <a href="../shortcuts.html">shortcuts table</a>.</p><div class="nav"><a href="light-camera.html">← Previous lesson</a><a href="../shortcuts.html">Shortcuts table →</a></div></div></main>
+<footer><div class="w">Lessons written from scratch for beginners. Blender is free, open-source software from <a href="https://www.blender.org/">blender.org</a>, and this site is not affiliated with the Blender Foundation. Steps and screenshots are from Blender 4.5 LTS with default settings.</div></footer></body></html>
